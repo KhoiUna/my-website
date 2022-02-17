@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Serif", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.329),
+      rgba(0, 0, 255, 0)
+    ),
+    url("../images/sea.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+#menu {
+  padding: 1rem;
+}
+#menu p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style hero-section */
+#hero-section {
+  text-align: center;
+  margin: 4rem auto;
+}
+
+.container {
+  margin: 1rem;
+}
+
+#hero-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0.5rem;
+}
+
+#read-more {
+  margin: 1rem;
+  padding: 0.7rem;
+  background-color: transparent;
+  border: none;
+}
+#read-more span {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Style introduction */
+#introduction {
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 0.5rem;
+}
+#introduction img {
+  border-radius: 100%;
+  margin: 0.7rem auto;
+  width: 9rem;
+}
+
+#introduction-img-container {
+  margin: auto;
+  border-bottom: 3px solid #777777;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.flex-container {
+  margin: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.paragraph {
+  margin: 0.5rem;
+  line-height: 1.5rem;
+}
