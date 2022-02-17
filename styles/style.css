@@ -6,7 +6,7 @@
   font-family: "Roboto Serif", sans-serif;
 }
 
-body {
+#parallax {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.329),
@@ -17,6 +17,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  min-height: 100vh;
 }
 
 header {
@@ -56,6 +57,7 @@ header {
   padding: 0.7rem;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 #read-more span {
   font-size: 1.2rem;
