@@ -118,6 +118,32 @@ header {
   font-size: 3.5rem;
 }
 
+/* Style other stuff */
+#parallax-other-stuff {
+  background-image: url("../images/music.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 20vh;
+}
+
+.other-stuff-card {
+  border: 3px solid #000;
+  border-radius: 12px;
+  width: fit-content;
+  max-width: 400px;
+  text-align: center;
+  cursor: pointer;
+  margin: 1rem;
+}
+.other-stuff-card .paragraph {
+  padding: 1rem;
+}
+.other-stuff-card .paragraph:last-child {
+  font-weight: bold;
+}
+
 /* Style footer  */
 footer {
   background-color: #0e3d66;
