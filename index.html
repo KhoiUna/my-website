@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>My Portfolio</title>
   </head>
@@ -11,7 +12,12 @@
     <div id="parallax">
       <header>
         <div id="menu">
-          <p>KHOI NGUYEN</p>
+          <a class="links" style="text-decoration: none" href="/"
+            ><p>KHOI</p></a
+          >
+          <button id="burger-menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
         </div>
       </header>
 
@@ -23,7 +29,7 @@
           </div>
         </section>
 
-        <section id="introduction">
+        <section class="sections" id="introduction">
           <div class="container">
             <p class="title">Who am I</p>
             <div class="flex-container">
@@ -39,7 +45,54 @@
             </div>
           </div>
         </section>
+
+        <div id="parallax-skills"></div>
+
+        <section class="sections" id="skills">
+          <lottie-player
+            src="https://assets3.lottiefiles.com/packages/lf20_M4t9nS.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            style="width: 12rem; margin: auto"
+          ></lottie-player>
+        </section>
       </main>
     </div>
+
+    <footer>
+      <p class="title" style="padding: 1rem">Khoi Nguyen</p>
+
+      <div class="footer-container">
+        <p class="footer-title">Contact</p>
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          <a class="links" href="mailto:knguyen2@una.edu">knguyen2@una.edu</a>
+        </p>
+      </div>
+
+      <div class="footer-container">
+        <p class="footer-title">Source code</p>
+        <p><a class="links" href="#">Click here</a></p>
+      </div>
+
+      <div class="footer-container">
+        <a class="links" href=""
+          ><i class="fa-brands fa-github social-icons"></i
+        ></a>
+        <a class="links" href=""
+          ><i class="fa-brands fa-linkedin-in social-icons"></i
+        ></a>
+      </div>
+
+      <p class="paragraph" id="copyright">&copy; 2022 | Khoi Nguyen</p>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/27e2db23db.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>
