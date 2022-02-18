@@ -13,9 +13,27 @@
 }
 
 /* Style header */
+@keyframes colorFadeIn {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #0e3d66;
+  }
+}
+@keyframes colorFadeOut {
+  from {
+    background-color: #0e3d66;
+  }
+  to {
+    background-color: transparent;
+  }
+}
+
 header {
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 #menu {
@@ -136,6 +154,7 @@ header {
   text-align: center;
   cursor: pointer;
   margin: 1rem;
+  box-shadow: 0px -5px 23px 0px rgba(0, 0, 0, 0.35);
 }
 .other-stuff-card .paragraph {
   padding: 1rem;
