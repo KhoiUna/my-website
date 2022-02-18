@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Serif", sans-serif;
+}
+
+.container {
+  margin: 1rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.paragraph {
+  padding: 1rem;
+  line-height: 1.5rem;
+}
+@media screen and (min-width: 500px) {
+  .paragraph {
+    padding: 1rem 25%;
+  }
+}
+
+.links {
+  color: #fff;
+}
+
+.sections {
+  background-color: #f6f6f6;
+  padding: 0.5rem;
+}
