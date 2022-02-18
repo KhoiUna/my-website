@@ -6,6 +6,17 @@
   font-family: "Roboto Serif", sans-serif;
 }
 
+.parallax {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: 500px) {
+  .parallax {
+    background-attachment: fixed;
+  }
+}
+
 .container {
   margin: 1rem;
 }

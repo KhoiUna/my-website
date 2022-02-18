@@ -1,15 +1,18 @@
-#parallax {
+#parallax-hero {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.329),
       rgba(0, 0, 255, 0)
     ),
     url("../images/sea.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   min-height: 100vh;
+  background-position: top;
+  background-size: auto;
+}
+@media screen and (min-width: 500px) {
+  #parallax-hero {
+    background-size: cover;
+  }
 }
 
 /* Style header */
@@ -59,7 +62,7 @@ header {
 /* Style hero-section */
 #hero-section {
   text-align: center;
-  margin: 3rem auto;
+  margin: 2rem auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,10 +121,6 @@ header {
 /* Style skills */
 #parallax-skills {
   background-image: url("../images/coding.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   min-height: 30vh;
 }
 
@@ -139,11 +138,7 @@ header {
 /* Style other stuff */
 #parallax-other-stuff {
   background-image: url("../images/music.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 20vh;
+  min-height: 30vh;
 }
 
 .other-stuff-card {
