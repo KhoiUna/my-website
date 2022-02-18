@@ -11,19 +11,27 @@
 }
 
 .title {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
+  margin: 2rem;
+}
+@media screen and (min-width: 500px) {
+  .title {
+    font-size: 3rem;
+  }
 }
 
 .paragraph {
-  padding: 1rem;
+  padding: 1.5rem;
   line-height: 1.5rem;
   font-size: 1rem;
 }
 @media screen and (min-width: 500px) {
   .paragraph {
-    padding: 1rem 35%;
+    padding: 1.5rem 33% 1.5rem 33%;
+    line-height: 2.2rem;
+    font-size: 1.5rem;
   }
 }
 
