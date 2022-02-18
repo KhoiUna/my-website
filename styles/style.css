@@ -58,6 +58,11 @@ header {
   color: #fff;
   margin: 0.5rem;
 }
+@media screen and (min-width: 500px) {
+  #hero-title {
+    font-size: 6rem;
+  }
+}
 
 #read-more {
   margin: 1rem;
@@ -67,7 +72,7 @@ header {
   cursor: pointer;
 }
 #read-more span {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 
