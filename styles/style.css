@@ -171,6 +171,11 @@ footer {
 }
 
 #copyright {
-  padding: 3rem 1.5rem 0.5rem 1.5rem;
   font-size: 0.9rem;
+  padding: 2rem 1rem 0.5rem;
+}
+@media screen and (min-width: 500px) {
+  #copyright {
+    padding: 3rem 1.5rem 0.5rem 1.5rem;
+  }
 }
