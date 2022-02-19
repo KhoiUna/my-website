@@ -6,6 +6,14 @@
   font-family: "Roboto Serif", sans-serif;
 }
 
+.nav-links {
+  text-decoration: none;
+  margin: 2rem;
+}
+.nav-links .paragraph {
+  font-size: 1.5rem;
+}
+
 .parallax {
   background-position: center;
   background-repeat: no-repeat;
