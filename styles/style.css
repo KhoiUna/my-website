@@ -215,7 +215,7 @@ header {
   box-shadow: 0px -5px 23px 0px rgba(0, 0, 0, 0.35);
 }
 .other-stuff-card .card-back {
-  background-color: #f6f6f6;
+  background-color: #d3d0d0;
   display: flex;
   align-items: center;
   justify-content: center;
