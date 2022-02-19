@@ -170,20 +170,52 @@ header {
 }
 
 .other-stuff-card {
-  border: 3px solid #000;
-  border-radius: 12px;
-  width: fit-content;
-  max-width: 400px;
+  width: 12rem;
+  height: 18rem;
   text-align: center;
   cursor: pointer;
-  margin: 1.5rem;
-  box-shadow: 0px -5px 23px 0px rgba(0, 0, 0, 0.35);
+  margin: 1.2rem 1.5rem;
+  perspective: 500px;
+}
+@media screen and (min-width: 500px) {
+  .other-stuff-card {
+    min-width: 300px;
+  }
 }
 .other-stuff-card .paragraph {
   padding: 1rem;
 }
 .other-stuff-card .paragraph:last-child {
   font-weight: bold;
+}
+
+.other-stuff-card .card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+.other-stuff-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+.other-stuff-card .card-front,
+.other-stuff-card .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border: 3px solid #000;
+  border-radius: 12px;
+  background-color: #f6f6f6;
+  box-shadow: 0px -5px 23px 0px rgba(0, 0, 0, 0.35);
+}
+.other-stuff-card .card-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(180deg);
 }
 
 /* Style footer  */
