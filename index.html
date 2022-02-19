@@ -9,41 +9,6 @@
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <title>My Portfolio</title>
-
-    <style>
-      .box {
-        width: 300px;
-        height: 220px;
-        perspective: 500px;
-      }
-      .box-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.5s;
-        transform-style: preserve-3d;
-      }
-      .box:hover .box-inner {
-        transform: rotateY(180deg);
-      }
-      .box-front,
-      .box-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-      }
-      .box-front {
-        background-color: #cccccc;
-        color: #111111;
-      }
-      .box-back {
-        background-color: #8ebf42;
-        color: #eeeeee;
-        transform: rotateY(180deg);
-      }
-    </style>
   </head>
 
   <body>
