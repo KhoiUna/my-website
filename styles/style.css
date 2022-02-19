@@ -156,10 +156,10 @@ header {
 
 #introduction-description {
   font-style: italic;
+  text-align: left;
 }
 @media screen and (min-width: 500px) {
   #introduction-description {
-    text-align: left;
     margin-left: 5rem;
   }
 }
@@ -184,7 +184,7 @@ header {
 .project-cards-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .project-cards {
   box-shadow: 0px -5px 23px 0px rgba(0, 0, 0, 0.35);
