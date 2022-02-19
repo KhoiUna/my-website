@@ -55,7 +55,7 @@ const readMoreButton = document.querySelector("#read-more");
 window.addEventListener("scroll", headerFading);
 
 $().ready(() => {
-  //nav-links
+  // nav-links
   $(".nav-links").click((event) => {
     const destination = event.currentTarget.attributes.href.nodeValue;
     smoothScroll(destination);
@@ -67,4 +67,9 @@ $().ready(() => {
 
   // read-more button
   $("#read-more").on("click", () => smoothScroll("#introduction"));
+
+  // other-stuff-cards;
+  $(".card-inner").on("click", (event) =>
+    event.currentTarget.classList.toggle("card-flip")
+  );
 });
