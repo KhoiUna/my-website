@@ -37,6 +37,12 @@
   margin: 1rem;
 }
 
+.flex-container {
+  margin: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .title {
   font-size: 2rem;
   font-weight: bold;
@@ -54,9 +60,8 @@
   line-height: 1.5rem;
   font-size: 1rem;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 500px) and (orientation: landscape) {
   .paragraph {
-    padding: 1.5rem 33% 1.5rem 33%;
     line-height: 2.2rem;
     font-size: 1.5rem;
   }

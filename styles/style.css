@@ -132,18 +132,36 @@ header {
 #introduction img {
   border-radius: 100%;
   margin: 0.7rem auto;
-  width: 9rem;
+  width: 12rem;
+}
+@media screen and (min-width: 500px) {
+  #introduction {
+    padding: 3.5rem 0;
+  }
+  #introduction img {
+    width: 19rem;
+  }
 }
 
 #introduction-img-container {
   margin: auto;
   border-bottom: 3px solid #777777;
 }
+@media screen and (min-width: 500px) and (orientation: landscape) {
+  #introduction-img-container {
+    border: none;
+    margin: auto 0 auto auto;
+  }
+}
 
-.flex-container {
-  margin: 0.5rem;
-  display: flex;
-  flex-wrap: wrap;
+#introduction-description {
+  font-style: italic;
+}
+@media screen and (min-width: 500px) {
+  #introduction-description {
+    text-align: left;
+    margin-left: 5rem;
+  }
 }
 
 /* Style skills */
