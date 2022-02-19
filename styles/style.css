@@ -59,6 +59,29 @@ header {
   cursor: pointer;
 }
 
+/* Style dropdown-menu */
+#dropdown-menu {
+  text-align: center;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  background-color: #0e3d66;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width: 500px) {
+  #burger-menu {
+    display: none !important;
+  }
+
+  #dropdown-menu {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    background-color: transparent;
+  }
+}
+
 /* Style hero-section */
 #hero-section {
   text-align: center;
