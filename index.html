@@ -77,16 +77,21 @@
         <section class="sections" id="introduction">
           <div class="container">
             <p class="title">Who am I</p>
-            <div class="flex-container">
-              <div id="introduction-img-container">
-                <img src="./public/images/ava.jpg" alt="Khoi Nguyen" />
+
+            <div style="display: flex; justify-content: center">
+              <div class="flex-container">
+                <div id="introduction-img-container">
+                  <img src="./public/images/ava.jpg" alt="Khoi Nguyen" />
+                </div>
+                <div style="max-width: 850px">
+                  <p class="paragraph" id="introduction-description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Laborum voluptatibus aliquid voluptates totam labore magni
+                    eligendi id cum modi? Quo odit quae nulla neque accusamus
+                    saepe totam similique aperiam ex!
+                  </p>
+                </div>
               </div>
-              <p class="paragraph">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laborum voluptatibus aliquid voluptates totam labore magni
-                eligendi id cum modi? Quo odit quae nulla neque accusamus saepe
-                totam similique aperiam ex!
-              </p>
             </div>
           </div>
         </section>
@@ -107,7 +112,11 @@
 
             <div
               class="flex-container"
-              style="justify-content: space-evenly; align-items: center"
+              style="
+                justify-content: space-evenly;
+                align-items: center;
+                margin-top: 4rem;
+              "
             >
               <div class="skills-flex">
                 <i class="fa-brands fa-html5 skill-icons"></i>
@@ -130,6 +139,12 @@
                 <p class="paragraph">NodeJS</p>
               </div>
             </div>
+          </div>
+
+          <div class="container">
+            <p class="title" style="font-size: 1.7rem">My Projects</p>
+
+            <div class="project-cards-container"></div>
           </div>
         </section>
 
@@ -245,11 +260,19 @@
     </footer>
 
     <script
+      type="module"
       src="https://kit.fontawesome.com/27e2db23db.js"
       crossorigin="anonymous"
     ></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-    <script src="scripts/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+    ></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+    ></script>
+    <script type="module" src="scripts/config.js"></script>
+    <script type="module" src="scripts/script.js"></script>
   </body>
 </html>

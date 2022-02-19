@@ -1,4 +1,8 @@
+import config from "./config.js";
+
 // Global variables
+const { projects } = config;
+
 const animationDuration = 500;
 let menuOpened = false;
 
@@ -55,15 +59,40 @@ const readMoreButton = document.querySelector("#read-more");
 window.addEventListener("scroll", headerFading);
 
 $().ready(() => {
+  // Add projects to DOM
+  projects.forEach((item) => {
+    $(".project-cards-container").append(`<div class="project-cards">
+  <div class="flex-container">
+    <p class="project-cards-title paragraph">${item.title}</p>
+    <div>
+      <a
+        class="links"
+        target="_blank"
+        rel="noopener noreferrer"
+        href=${item.liveURL}
+        ><p class="paragraph">View live</p></a
+      >
+      <a
+        class="links"
+        target="_blank"
+        rel="noopener noreferrer"
+        href=${item.srcCodeURL}
+        ><p class="paragraph">View source</p></a
+      >
+    </div>
+  </div>
+</div>`);
+  });
+
   // nav-links
-  $(".nav-links").click((event) => {
+  $(".nav-links").on("click", (event) => {
     const destination = event.currentTarget.attributes.href.nodeValue;
     smoothScroll(destination);
     toggleMenu();
   });
 
   // dropdown-menu
-  $("#burger-menu").click(toggleMenu);
+  $("#burger-menu").on("click", toggleMenu);
 
   // read-more button
   $("#read-more").on("click", () => smoothScroll("#introduction"));
