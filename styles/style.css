@@ -179,7 +179,7 @@ header {
 }
 @media screen and (min-width: 500px) {
   .other-stuff-card {
-    min-width: 300px;
+    width: 16rem;
   }
 }
 .other-stuff-card .paragraph {
