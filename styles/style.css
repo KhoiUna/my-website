@@ -211,15 +211,37 @@ header {
   -webkit-backface-visibility: hidden;
   border: 3px solid #000;
   border-radius: 12px;
-  background-color: #f6f6f6;
+  background-color: #92c2e9;
   box-shadow: 0px -5px 23px 0px rgba(0, 0, 0, 0.35);
 }
 .other-stuff-card .card-back {
+  background-color: #f6f6f6;
   display: flex;
   align-items: center;
   justify-content: center;
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
+}
+
+@keyframes spinQuestionMark {
+  from {
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+  }
+}
+.question-mark {
+  font-size: 9rem;
+  margin: 0.5rem auto;
+}
+@media screen and (min-width: 500px) {
+  .question-mark {
+    animation: spinQuestionMark 1s infinite linear;
+    -webkit-animation: spinQuestionMark 1s infinite linear;
+  }
 }
 
 /* Style footer  */
