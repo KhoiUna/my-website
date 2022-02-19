@@ -13,6 +13,14 @@
 .nav-links .paragraph {
   font-size: 1.5rem;
 }
+@media screen and (min-width: 500px) {
+  .nav-links {
+    margin: 0 1.5rem;
+  }
+  .nav-links .paragraph {
+    padding: 0;
+  }
+}
 
 .parallax {
   background-position: center;

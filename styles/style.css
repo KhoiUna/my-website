@@ -69,16 +69,19 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
+#nav-container {
+  display: none;
+}
+
 @media screen and (min-width: 500px) {
-  #burger-menu {
+  #burger-menu,
+  #dropdown-menu {
     display: none !important;
   }
 
-  #dropdown-menu {
+  #nav-container {
     display: flex;
-    height: auto;
-    flex-direction: row;
-    background-color: transparent;
   }
 }
 
