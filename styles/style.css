@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.329),
       rgba(0, 0, 255, 0)
     ),
-    url("../images/sea.jpg");
+    url("../public/images/sea.jpg");
   min-height: 100vh;
   background-position: top;
   background-size: auto;
@@ -146,7 +146,7 @@ header {
 
 /* Style skills */
 #parallax-skills {
-  background-image: url("../images/coding.jpg");
+  background-image: url("../public/images/coding.jpg");
   min-height: 30vh;
 }
 
@@ -163,7 +163,7 @@ header {
 
 /* Style other stuff */
 #parallax-other-stuff {
-  background-image: url("../images/music.jpg");
+  background-image: url("../public/images/music.jpg");
   min-height: 30vh;
 }
 
