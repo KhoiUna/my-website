@@ -111,40 +111,18 @@
             ></lottie-player>
 
             <div
+              id="skills-container"
               class="flex-container"
               style="
                 justify-content: space-evenly;
                 align-items: center;
                 margin-top: 4rem;
               "
-            >
-              <div class="skills-flex">
-                <i class="fa-brands fa-html5 skill-icons"></i>
-                <p class="paragraph">HTML</p>
-              </div>
-              <div class="skills-flex">
-                <i class="fa-brands fa-css3 skill-icons"></i>
-                <p class="paragraph">CSS</p>
-              </div>
-              <div class="skills-flex">
-                <i class="fa-brands fa-js skill-icons"></i>
-                <p class="paragraph">JavaScript</p>
-              </div>
-              <div class="skills-flex">
-                <i class="fa-brands fa-react skill-icons"></i>
-                <p class="paragraph">React</p>
-              </div>
-              <div class="skills-flex">
-                <i class="fa-brands fa-node-js skill-icons"></i>
-                <p class="paragraph">NodeJS</p>
-              </div>
-            </div>
+            ></div>
           </div>
 
-          <div class="container">
+          <div class="container project-cards-container">
             <p class="title" style="font-size: 1.7rem">My Projects</p>
-
-            <div class="project-cards-container"></div>
           </div>
         </section>
 
@@ -217,12 +195,8 @@
       <div id="footer-flex">
         <p class="title" id="footer-brand">KHOI</p>
 
-        <div class="footer-container">
+        <div id="contacts-container" class="footer-container">
           <p class="footer-title">Contact</p>
-          <p>
-            <i class="fa-solid fa-envelope"></i>
-            <a class="links" href="mailto:knguyen2@una.edu">knguyen2@una.edu</a>
-          </p>
         </div>
 
         <div class="footer-container">
@@ -252,22 +226,7 @@
         </div>
       </div>
 
-      <div class="footer-container social-icons-container">
-        <a
-          class="links"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/khoiUna/"
-          ><i class="fa-brands fa-github social-icons"></i
-        ></a>
-        <a
-          class="links"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/khoiuna/"
-          ><i class="fa-brands fa-linkedin-in social-icons"></i
-        ></a>
-      </div>
+      <div class="footer-container social-icons-container"></div>
 
       <p class="paragraph" id="copyright">&copy; 2022 | Khoi Nguyen</p>
     </footer>
@@ -285,7 +244,6 @@
       type="module"
       src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
     ></script>
-    <script type="module" src="scripts/config.js"></script>
     <script type="module" src="scripts/script.js"></script>
   </body>
 </html>
