@@ -6,6 +6,10 @@
   font-family: "Roboto Serif", sans-serif;
 }
 
+body {
+  background-color: #0e3d66;
+}
+
 .nav-links {
   text-decoration: none;
   margin: 2rem;
