@@ -40,6 +40,8 @@ export default {
       text: "knguyen2@una.edu",
     },
   ],
+
+  // Please add .social-icons for the icons
   socials: [
     {
       link: "https://github.com/khoiUna/",
@@ -52,6 +54,10 @@ export default {
     {
       link: "https://www.instagram.com/khoi.una/",
       icon: `<i class="fa-brands fa-instagram social-icons"></i>`,
+    },
+    {
+      link: "https://www.youtube.com/c/khoiuna",
+      icon: `<i class="fa-brands fa-youtube social-icons"></i>`,
     },
   ],
 };
