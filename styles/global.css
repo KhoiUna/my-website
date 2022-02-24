@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap");
 
+:root {
+  --theme-bg-color: #0e3d66;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -7,15 +11,21 @@
 }
 
 body {
-  background-color: #0e3d66;
+  background-color: var(--theme-bg-color);
 }
 
 .nav-links {
   text-decoration: none;
   margin: 2rem;
+  transition: all 0.4s ease 0s;
 }
 .nav-links .paragraph {
   font-size: 1.5rem;
+}
+.nav-links:hover .paragraph {
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem 0.5rem rgba(0, 0, 0, 0.15);
 }
 @media screen and (min-width: 500px) {
   .nav-links {
