@@ -293,6 +293,7 @@ header {
 footer {
   background-color: #0e3d66;
   color: #f6f6f6;
+  padding: 1.5rem 1.5rem 0;
 }
 
 #footer-brand {
