@@ -67,9 +67,5 @@ export default {
       link: "https://www.youtube.com/c/khoiuna",
       icon: `<i class="fa-brands fa-youtube social-icons"></i>`,
     },
-    {
-      link: "https://khoiuna.notion.site/7bb5735650a646bd91cd6d03b68a736c?v=15e651a06f29495fa9726117a6caa04a/",
-      icon: `<i class="fa-brands fa-blogger-b social-icons"></i>`,
-    },
   ],
 };
