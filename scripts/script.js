@@ -1,4 +1,5 @@
 import config from "./config.js";
+import $ from "jquery";
 
 // Global variables
 const animationDuration = 500;
