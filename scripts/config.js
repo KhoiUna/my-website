@@ -23,14 +23,14 @@ export default {
   ],
   projects: [
     {
-      title: "Birthday Piano",
-      liveURL: "https://khoiuna.github.io/birthday.github.io/",
-      srcCodeURL: "https://github.com/KhoiUna/birthday.github.io",
+      title: "Python Stocks CLI",
+      liveURL: "https://github.com/KhoiUna/python_canslim",
+      srcCodeURL: "https://github.com/KhoiUna/python_canslim",
     },
     {
-      title: "Crypto Disco",
-      liveURL: "https://cryptodisco.vercel.app/",
-      srcCodeURL: "https://github.com/KhoiUna/cryptodisco-client-vercel",
+      title: "Cooking Reservation app",
+      liveURL: "https://cooking-reservation.vercel.app/",
+      srcCodeURL: "https://github.com/KhoiUna/cooking-reservation",
     },
   ],
   contacts: [
