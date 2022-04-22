@@ -11,7 +11,7 @@ npx pnpm install
 - Start local [Vite](https://vitejs.dev/) server
 
 ```sh
-npm run dev
+npx pnpm run dev
 ```
 
 - Config `./scripts/config.js` to edit displayed text
