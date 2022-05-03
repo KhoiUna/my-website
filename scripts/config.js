@@ -1,4 +1,13 @@
 export default {
+  brandName: "KHOI",
+  introduction: `
+  Hi! I am Khoi Nguyen from HCMC, Vietnam. I'm pursuing my
+  Bachelor's Degree in Computer Information Systems at
+  University of North Alabama. My interests are Software
+  Engineering and Entrepreneurship.
+  `,
+
+  // Please add .skill-icons
   skills: [
     {
       name: "HTML",
@@ -41,7 +50,7 @@ export default {
     },
   ],
 
-  // Please add .social-icons for the icons
+  // Please add .social-icons
   socials: [
     {
       link: "https://github.com/khoiUna/",

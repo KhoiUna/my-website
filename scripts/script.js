@@ -111,7 +111,18 @@ const header = document.querySelector("header");
 // JS interactions
 window.addEventListener("scroll", headerFading);
 
-$().ready(() => {
+$(() => {
+  document.title = `${config.brandName.toUpperCase()} | ${document.title}`;
+
+  // brand-name
+  $(".brand-name").text(config.brandName);
+
+  // introduction-description
+  $("#introduction-description").text(config.introduction);
+
+  // copyright-year
+  $("#copyright-year").text(new Date().getFullYear());
+
   // Add projects to DOM
   addToDom("#skills-container", config["skills"]);
   addToDom(".project-cards-container", config["projects"]);
