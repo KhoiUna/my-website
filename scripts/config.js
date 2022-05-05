@@ -1,7 +1,7 @@
 export default {
   brandName: "KHOI",
   introduction: `
-  Hi! I am Khoi Nguyen from HCMC, Vietnam. I'm pursuing my
+  Hi! I am Khoi Nguyen based in Florence, Alabama. I'm pursuing my
   Bachelor's Degree in Computer Information Systems at
   University of North Alabama. My interests are Software
   Engineering and Entrepreneurship.
