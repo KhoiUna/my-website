@@ -59,7 +59,7 @@ const addToDom = (domCssSelector, array) => {
       case "#skills-container":
         return `<div class="skills-flex">
     ${item.icon}
-    <p class="paragraph">${item.name}</p>
+    <p class="skill-paragraphs">${item.name}</p>
   </div>`;
 
       case ".project-cards-container":
@@ -88,7 +88,7 @@ const addToDom = (domCssSelector, array) => {
       case "#contacts-container":
         return `<p><a class="links" href=${
           item.type ? `mailto:${item.text}` : item.text
-        }>knguyen2@una.edu</a></p>`;
+        }>${item.text}</a></p>`;
 
       case ".social-icons-container":
         return `<a
