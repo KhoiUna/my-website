@@ -132,13 +132,13 @@ export default {
       link: "https://www.instagram.com/khoi.una/",
       icon: `<i class="fa-brands fa-instagram social-icons"></i>`,
     },
-    {
-      link: "https://www.tiktok.com/@khoi.una/",
-      icon: `<i class="fa-brands fa-tiktok social-icons"></i>`,
-    },
-    {
-      link: "https://www.youtube.com/c/khoiuna",
-      icon: `<i class="fa-brands fa-youtube social-icons"></i>`,
-    },
+//     {
+//       link: "https://www.tiktok.com/@khoi.una/",
+//       icon: `<i class="fa-brands fa-tiktok social-icons"></i>`,
+//     },
+//     {
+//       link: "https://www.youtube.com/c/khoiuna",
+//       icon: `<i class="fa-brands fa-youtube social-icons"></i>`,
+//     },
   ],
 };
