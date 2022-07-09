@@ -128,10 +128,10 @@ export default {
       link: "https://www.linkedin.com/in/khoiuna/",
       icon: `<i class="fa-brands fa-linkedin-in social-icons"></i>`,
     },
-    {
-      link: "https://www.instagram.com/khoi.una/",
-      icon: `<i class="fa-brands fa-instagram social-icons"></i>`,
-    },
+    // {
+    //   link: "https://www.instagram.com/khoi.una/",
+    //   icon: `<i class="fa-brands fa-instagram social-icons"></i>`,
+    // },
 //     {
 //       link: "https://www.tiktok.com/@khoi.una/",
 //       icon: `<i class="fa-brands fa-tiktok social-icons"></i>`,
