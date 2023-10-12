@@ -6,53 +6,19 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="#191919" />
     <meta name="title" content="{{ title }}" />
-    {% if description %}
-    <meta name="description" content="{{ description }}" />
-    {% endif %}
-    {% if not description and post_excerpt %}
-    <meta name="description" content="{{ post_excerpt | strip_newlines | strip_html | append: "..." }}" />
-    {% endif %}
-    {% if not post_excerpt and not description %}
-    <meta name="description" content="{{ title | prepend: " > " | prepend: site.title }}" />
-    {% endif %}
+    <meta name="description" content="{{ site.description }}" />
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:title" content="{{ title }}" />
-    {% if description %}
-    <meta property="og:description" content="{{ description }}" />
-    {% endif %}
-    {% if not description and post_excerpt %}
-    <meta property="og:description" content="{{ post_excerpt | strip_newlines | strip_html | append: "..." }}" />
-    {% endif %}
-    {% if not post_excerpt and not description %}
-    <meta property="og:description" content="{{ title | prepend: " > " | prepend: site.title }}" />
-    {% endif %}
-    {% if ogImage %}
-    <meta property="og:image" content="{{ ogImage }}" />
-    {% endif %}
-    {% if not ogImage %}
-    <meta property="og:image" content="{{ site.url | append: "/assets/ava.png" }}" />
-    {% endif %}
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:image" content="/assets/ava.png" />
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="{{ site.url }}" />
     <meta property="twitter:title" content="{{ title }}" />
-    {% if description %}
-    <meta property="twitter:description" content="{{ description }}" />
-    {% endif %}
-    {% if not description and post_excerpt %}
-    <meta property="twitter:description" content="{{ post_excerpt | strip_newlines | strip_html | append: "..." }}" />
-    {% endif %}
-    {% if not post_excerpt and not description %}
-    <meta property="twitter:description" content="{{ title | prepend: " > " | prepend: site.title }}" />
-    {% endif %}
-    {% if ogImage %}
-    <meta property="twitter:image" content="{{ ogImage }}" />
-    {% endif %}
-    {% if not ogImage %}
-    <meta property="twitter:image" content="{{ site.url | append: "/assets/ava.png" }}" />
-    {% endif %}
+    <meta property="twitter:description" content="{{ site.description }}" />
+    <meta property="twitter:image" content="/assets/ava.png" />
 
     <link href="/assets/styles/tailwind.css" rel="stylesheet" />
     <link href="/assets/styles/index.css" rel="stylesheet" />
