@@ -4,11 +4,11 @@ title: Home | KHOI
 ---
 
 <div class="py-3">
-    <img src="/assets/ava.png" class="rounded-lg" width="120" height="120" />
+    <img src="/assets/ava.png" class="rounded-lg" width="120" height="120" alt='Khoi Nguyen avatar'/>
     <p class='py-3 text-gray text-sm'>{{site.description}}</p>
     
     {%for social in site.socials%}
-    <a target="_blank" href={{social.link}}>
+    <a aria-label={{social.link}} target="_blank" href={{social.link}}>
         <i class='{{social.icon | append: ' text-xl pr-5 rounded-full'}}'></i>
     </a>
     {%endfor%}
