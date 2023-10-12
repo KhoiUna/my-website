@@ -1,10 +1,14 @@
 ---
 layout: default
 title: Projects | KHOI
+pagination:
+  size: 10
+  data: collections.project
+  reverse: true
 ---
 
 <div>
-{% for project in collections.project %} 
+{% for project in pagination.items %} 
 <div class='flex bg-wite py-5 rounded-lg'>
   <img class='min-w-[90px] w-[90px] h-[90px] rounded-lg object-scale-down' src={{project.data.ogImage}} alt={{project.data.title}} />
   
