@@ -1,0 +1,26 @@
+---
+layout: main
+---
+
+<a href="/" class="block w-fit">
+  <p class="bg-[#0e3d66] w-fit p-1 text-2xl font-bold mt-5 leading-tight capitalize">{{ site.title }}</p>
+  <p class="text-xl mt-1">👨‍💻 ☕️</p>
+</a>
+
+{% include "nav.liquid" %}
+
+<a class="hover:underline" href="{{ url }}">
+  <p class="text-4xl font-black pt-5 md:pt-30 pb-1 leading-tight">{{ title }}</p>
+</a>
+
+<div class='pb-5'>
+    <em>{{ date | date: "%Y-%m-%d" }}</em>
+</div>
+
+<div id="post" class="prose prose-invert hover:prose-a:text-blue-500">
+  {% if ogImage %}  
+    <img class="w-[200px] rounded-lg object-scale-down" src="{{ ogImage }}" />
+  {% endif %}
+
+  {{ content }}
+</div>
