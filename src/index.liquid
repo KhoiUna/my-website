@@ -3,10 +3,22 @@ layout: default
 title: KHOI
 ---
 
-<div class="py-3 flex flex-wrap items-center">
-  <img src="/assets/ava.png" class="rounded-lg" width="150" height="150" />
+<div class="py-3">
+    <img src="/assets/ava.png" class="rounded-lg" width="120" height="120" />
+    <p class='py-3 text-gray text-sm'>{{site.description}}</p>
+    
+    {%for social in site.socials%}
+    <a target="_blank" href={{social.link}}>
+        <i class='{{social.icon | append: ' text-xl pr-5 rounded-full'}}'></i>
+    </a>
+    {%endfor%}
+    <div class='pt-3 flex items-center'>
+        <i class="fa-solid fa-envelope text-xl"></i>
+        <a class='ml-1 text-sm underline underline-offset-4' href='mailto:{{site.contacts.email}}'>{{site.contacts.email}}</a>
+    </div>
 
-    <p class='pt-5'>
+    <h1 class='text-2xl pt-10 font-bold'>Intro</h1> 
+    <p class='pt-3'>
         👋 Hi, I'm Khoi. I'm pursuing a Dual Degree: a Bachelor of Science in
         Information Technology and a Bachelor of Business Administration in Computer
         Information Systems at the University of North Alabama.
@@ -16,4 +28,14 @@ title: KHOI
         PostgreSQL, and TypeScript. Outside of work, I enjoy biking and traveling.
         Would love to connect!
     </p>
+    
+    <h1 class='text-2xl pt-10 font-bold'>Skills</h1> 
+    <div class='pt-3 flex flex-wrap items-center'>
+    {%for skill in site.skills %}
+    <div class='flex flex-col items-center mr-5 my-5'>
+        <span class="iconify text-3xl" data-icon={{skill.icon}}></span>
+        <p class='pt-3'>{{skill.name}}</p>
+    </div>
+    {%endfor%}
+    </div>
 </div>
