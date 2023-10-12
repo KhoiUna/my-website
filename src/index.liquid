@@ -4,20 +4,16 @@ title: Home | KHOI
 ---
 
 <div class="py-3">
-    <img src="/assets/ava.png" class="rounded-lg" width="120" height="120" alt='Khoi Nguyen avatar'/>
-    <p class='py-3 text-sm'>{{site.description}}</p>
-    
+    <img src="/assets/ava.png" class="rounded-lg w-[100px] h-[100px]" alt='Khoi Nguyen avatar' />
+    <p class='py-3 text-gray'>{{site.description}}</p>
     {%for social in site.socials%}
     <a aria-label={{social.link}} target="_blank" href={{social.link}}>
-        <i class='{{social.icon | append: ' text-xl pr-5 rounded-full'}}'></i>
+        <i class='{{social.icon | append: ' text-3xl pr-5 rounded-full'}}'></i>
     </a>
-    {%endfor%}
-    <div class='pt-3 flex items-center'>
-        <i class="fa-solid fa-envelope text-xl"></i>
-        <a class='ml-3 text-sm underline underline-offset-4' href='mailto:{{site.contacts.email}}'>{{site.contacts.email}}</a>
-    </div>
+    {%endfor%}    
+    <a class='text-3xl py-5 pr-5 rounded-full' href='mailto:{{site.contacts.email}}'><i class="fa-solid fa-envelope text-3xl"></i></a>
 
-    <h1 class='text-2xl pt-10 font-bold'>Intro</h1> 
+    <h1 class='text-2xl pt-8 font-bold'>Intro</h1> 
     <p class='pt-3 text-gray'>
         👋 Hi, I'm Khoi. I'm pursuing a Dual Degree: a Bachelor of Science in
         Information Technology and a Bachelor of Business Administration in Computer
