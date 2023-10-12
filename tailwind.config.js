@@ -4,6 +4,7 @@ module.exports = {
   content: [
     "./src/**/*.html",
     "./src/**/*.liquid",
+    "./src/**/*.md",
     "./src/_includes/**/*.liquid",
   ],
   plugins: [require("@tailwindcss/typography")],
