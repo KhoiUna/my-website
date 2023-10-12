@@ -75,33 +75,6 @@
       "icon": "logos:postgresql"
     }
   ],
-
-  "projects": [
-    {
-      "title": "NFC Orange",
-      "link": "https://www.nfcorange.com/",
-      "description": "Modernize Career Fairs: Embrace the Paperless Revolution.",
-      "image": "/images/nfcorange.gif"
-    },
-    {
-      "title": "ChekChat",
-      "link": "https://github.com/KhoiUna/chekchat",
-      "description": "Open-source chatting app for assigning tasks.",
-      "image": "/images/chekchat.webp"
-    },
-    {
-      "title": "Birthday Piano",
-      "link": "https://github.com/KhoiUna/birthday-piano",
-      "description": "Open-source website that lets you send a wish to someone on their birthday.",
-      "image": "/images/birthdaypiano.webp"
-    },
-    {
-      "title": "Shooting Numbers",
-      "link": "https://shootingnum.khoiuna.info/",
-      "description": "Open-source annoying shooting math game made with PhaserJS.",
-      "image": "/images/shootingnum.webp"
-    }
-  ],
   "contacts": {
     "email": "nguyentuankhoi2112@gmail.com"
   },
