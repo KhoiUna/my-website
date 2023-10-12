@@ -6,7 +6,7 @@ title: Projects | KHOI
 <div>
 {% for project in collections.project %} 
 <div class='flex bg-wite py-5 rounded-lg'>
-  <img class='w-[90px] h-[90px] rounded-lg object-scale-down' src={{project.data.ogImage}} alt={{project.data.title}} />
+  <img class='min-w-[90px] w-[90px] h-[90px] rounded-lg object-scale-down' src={{project.data.ogImage}} alt={{project.data.title}} />
   
   <div>
     <a href={{project.url}} class='urls hover:underline text-xl ml-5 font-bold'>
