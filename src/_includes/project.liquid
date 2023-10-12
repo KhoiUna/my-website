@@ -22,5 +22,12 @@ layout: main
     <img class="w-[200px] rounded-lg object-scale-down" src="{{ ogImage }}" />
   {% endif %}
 
+  {%if sourceCode%}
+  <a target='_blank' href={{sourceCode}} class='urls block'>Source code</a>
+  {%endif%}
+  {%if liveDemo%}
+  <a target='_blank' href={{liveDemo}} class='urls block pt-3'>Live demo</a>
+  {%endif%}
+
   {{ content }}
 </div>

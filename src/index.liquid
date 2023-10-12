@@ -5,7 +5,7 @@ title: Home | KHOI
 
 <div class="py-3">
     <img src="/assets/ava.png" class="rounded-lg" width="120" height="120" alt='Khoi Nguyen avatar'/>
-    <p class='py-3 text-gray text-sm'>{{site.description}}</p>
+    <p class='py-3 text-sm'>{{site.description}}</p>
     
     {%for social in site.socials%}
     <a aria-label={{social.link}} target="_blank" href={{social.link}}>
@@ -14,16 +14,16 @@ title: Home | KHOI
     {%endfor%}
     <div class='pt-3 flex items-center'>
         <i class="fa-solid fa-envelope text-xl"></i>
-        <a class='ml-1 text-sm underline underline-offset-4' href='mailto:{{site.contacts.email}}'>{{site.contacts.email}}</a>
+        <a class='ml-3 text-sm underline underline-offset-4' href='mailto:{{site.contacts.email}}'>{{site.contacts.email}}</a>
     </div>
 
     <h1 class='text-2xl pt-10 font-bold'>Intro</h1> 
-    <p class='pt-3'>
+    <p class='pt-3 text-gray'>
         👋 Hi, I'm Khoi. I'm pursuing a Dual Degree: a Bachelor of Science in
         Information Technology and a Bachelor of Business Administration in Computer
         Information Systems at the University of North Alabama.
     </p>
-    <p class='pt-5'>
+    <p class='pt-5 text-gray'>
         🚀 I've worked at 3 startups with tech stacks such as Python, NextJS, React,
         PostgreSQL, and TypeScript. Outside of work, I enjoy biking and traveling.
         Would love to connect!
@@ -34,7 +34,7 @@ title: Home | KHOI
     {%for skill in site.skills %}
     <div class='flex flex-col items-center mr-5 my-5'>
         <span class="iconify text-3xl" data-icon={{skill.icon}}></span>
-        <p class='pt-3'>{{skill.name}}</p>
+        <p class='pt-3 text-gray'>{{skill.name}}</p>
     </div>
     {%endfor%}
     </div>
