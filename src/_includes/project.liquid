@@ -22,12 +22,14 @@ layout: main
     <img class="w-[200px] rounded-lg object-fit" src="{{ ogImage }}" />
   {% endif %}
 
+  <div class='pb-5'>
   {%if sourceCode%}
   <a target='_blank' href={{sourceCode}} class='urls block w-fit'>Source code</a>
   {%endif%}
   {%if liveDemo%}
   <a target='_blank' href={{liveDemo}} class='urls block pt-3 w-fit'>Live demo</a>
   {%endif%}
+  </div>
 
   {{ content }}
 </div>
