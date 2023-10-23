@@ -13,13 +13,23 @@
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:description" content="{{ site.description }}" />
+    {% unless ogImage%}
     <meta property="og:image" content="/assets/ava.png" />
+    {% endunless %}
+    {% if ogImage%}
+    <meta property="og:image" content="{{ ogImage }}" />
+    {% endif %}
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="{{ site.url }}" />
     <meta property="twitter:title" content="{{ title }}" />
     <meta property="twitter:description" content="{{ site.description }}" />
+    {% unless ogImage%}
     <meta property="twitter:image" content="/assets/ava.png" />
+    {%endunless%}
+    {% if ogImage%}
+    <meta property="twitter:image" content="{{ ogImage }}" />
+    {%endif%}
 
     <link href="/assets/styles/tailwind.css" rel="stylesheet" />
     <link href="/assets/styles/index.css" rel="stylesheet" />
