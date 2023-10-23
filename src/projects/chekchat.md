@@ -4,10 +4,13 @@ description: "Open-source chatting app for assigning tasks"
 date: "2021-03-01"
 ogImage: /assets/images/chekchat.webp
 sourceCode: https://github.com/KhoiUna/chekchat
-liveDemo:
+liveDemo: https://chekchat.khoiuna.info
 ---
 
-ChekChat was my 1st attempt to build a startup.
+ChekChat was my 1st attempt to build a startup. You can try the {%newtab_link 'https://chekchat.khoiuna.info/' 'live demo'%} with these credentials:
+
+- Email: john@example.com — Password: John123456
+- Email: jane@example.com — Password: Jane123456
 
 # Problem
 
