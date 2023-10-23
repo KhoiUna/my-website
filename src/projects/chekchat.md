@@ -7,10 +7,12 @@ sourceCode: https://github.com/KhoiUna/chekchat
 liveDemo: https://chekchat.khoiuna.info
 ---
 
-ChekChat was my 1st attempt to build a startup. You can try the {%newtab_link 'https://chekchat.khoiuna.info/' 'live demo'%} with these credentials:
+ChekChat was my 1st attempt to build a startup. You can try the {%newtab_link 'https://chekchat.khoiuna.info/' 'live demo'%} with these credentials or {%newtab_link 'https://chekchat.khoiuna.info/register' 'register'%} for one:
 
 - Email: john@example.com — Password: John123456
 - Email: jane@example.com — Password: Jane123456
+- Email: ben@example.com — Password: Ben1234567
+- Email: tom@example.com — Password: Tom1234567
 
 # Problem
 
