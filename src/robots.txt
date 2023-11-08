@@ -1,4 +1,4 @@
-Sitemap: https://www.khoiuna.info/sitemap.xml
+Sitemap: https://www.imkhoi.com/sitemap.xml
 
 User-agent: *
 Disallow:
