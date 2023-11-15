@@ -6,3 +6,45 @@ ogImage: /assets/images/nfcorange.webp
 sourceCode: https://github.com/KhoiUna/nfc-orange
 liveDemo: https://www.nfcorange.com/
 ---
+
+### Content
+
+- [Problem](#problem)
+- [Solution](#solution)
+- [Team](#team)
+- [Tech stack](#tech-stack)
+- [Why we failed](#why-we-failed)
+
+I blogged about this project. If interested, you can read it {%newtab_link 'https://blog.imkhoi.com/posts/2023/02/startup-at-uni/' 'here'%}.
+
+# Problem
+
+NFC Orange addresses the inefficiencies of traditional career fairs by digitizing the process, eliminating the need for paper resumes, and providing a modern solution for students and recruiters to connect seamlessly.
+
+# Solution
+
+We replace paper resumes with NFC cards that students can tap on recruiters' phones to share their resumes. We also built a NFC reader that students could tap their card on. The reader would read the card and save it to the **Recruiter dashboard** we built.
+
+{%asset_img 'recruiter-dashboard.webp' 'Recruiter Dashboard'%}
+
+<sub>NFC Orange's Recruiter Dashboard</sub>
+
+During the course of the project, we had added more features like adding the **Analytics** feature for students to track how many times their profile has been viewed.
+
+# Team
+
+Worked in a team of two:
+
+- {%newtab_link 'https://www.linkedin.com/in/avish-yadav/' 'Avish Yadav'%} &mdash; MBA in Global Business.
+
+# Tech stack
+
+**Front end:** React, NextJS, Tailwind CSS.
+
+**Back end:** NodeJS, Express.
+
+**Hardware:** {%newtab_link 'https://docs.particle.io/boron/' 'Particle Boron'%} (for sending HTTP requests), RC522 (for reading the NFC cards).
+
+# Why we failed
+
+Even though we successfully raised fund for this project from our Dean of College Business & Technology, we failed due to lack of product market fit. We had some early user's interests (by handing out free cards and posting on social media), but there was no word-of-mouth, and eventually, the project started to lose engagement.
