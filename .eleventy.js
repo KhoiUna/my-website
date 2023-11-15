@@ -22,7 +22,7 @@ module.exports = function (eleventyConfig) {
 
   // asset_img shortcode
   eleventyConfig.addLiquidShortcode("asset_img", (filename, alt) => {
-    return `<img loading="lazy" class="my-4 rounded-lg" src="/assets/images/${filename}" alt="${alt}" />`;
+    return `<img loading="lazy" src="/assets/images/${filename}" alt="${alt}" />`;
   });
 
   // newtab_link shortcode
