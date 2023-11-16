@@ -47,4 +47,9 @@ Worked in a team of two:
 
 # Why we failed
 
-Even though we successfully raised fund for this project from our Dean of College Business & Technology, we failed due to lack of product market fit. We had some early user's interests (by handing out free cards and posting on social media), but there was no word-of-mouth, and eventually, the project started to lose engagement.
+Even though we successfully raised fund for this project from our Dean of College Business & Technology, we failed due to lack of product market fit. We had some early user's interests (by handing out free cards and posting on social media), but there was no word-of-mouth or engagement.
+
+Here is how often people tap their cards. As you can see, most of these came from me or Avish showing that not a lot have used it after receiving the cards.
+{%asset_img 'nfcorange-sql.webp' 'NFC Orange user scanning data from PostgreSQL'%}
+
+In addition, students still prefer taking their resume to the NFC cards, since recruiters have QR codes for students to scan and apply directly on their company's job portal.
