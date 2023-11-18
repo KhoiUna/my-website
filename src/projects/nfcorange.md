@@ -15,7 +15,7 @@ liveDemo: https://www.nfcorange.com/
 - [Tech stack](#tech-stack)
 - [Why we failed](#why-we-failed)
 
-I blogged about this project. If interested, you can read it {%newtab_link 'https://blog.imkhoi.com/posts/2023/02/startup-at-uni/' 'here'%}.
+I blogged about this project. If interested, you can {%newtab_link 'https://blog.imkhoi.com/posts/2023/02/startup-at-uni/' 'read the blog here'%}.
 
 # Problem
 
