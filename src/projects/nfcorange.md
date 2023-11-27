@@ -7,14 +7,6 @@ sourceCode: https://github.com/KhoiUna/nfc-orange
 liveDemo: https://www.nfcorange.com/
 ---
 
-### Content
-
-- [Problem](#problem)
-- [Solution](#solution)
-- [Team](#team)
-- [Tech stack](#tech-stack)
-- [Why we failed](#why-we-failed)
-
 I blogged about this project. If interested, you can {%newtab_link 'https://blog.imkhoi.com/posts/2023/02/startup-at-uni/' 'read the blog here'%}.
 
 # Problem

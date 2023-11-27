@@ -2,6 +2,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const pluginTOC = require("eleventy-plugin-nesting-toc");
 
 module.exports = function (eleventyConfig) {
   // Plugins
@@ -11,8 +12,9 @@ module.exports = function (eleventyConfig) {
   // Copy these static files to _site folder
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPlugin(pluginTOC, { tags: ["h1", "h2", "h3"] });
 
-  const md = markdownIt({ html: true, linkify: true });
+  const md = markdownIt({ html: true, linkify: true, typographer: true });
   md.use(markdownItAnchor, {
     level: [1, 2],
     permalink: markdownItAnchor.permalink.headerLink({

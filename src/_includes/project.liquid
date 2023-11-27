@@ -31,5 +31,9 @@ layout: main
   {%endif%}
   </div>
 
-  {{ content }}
+  <details open>
+	<summary style="cursor: pointer;" class="text-xl font-bold">Table of contents</summary>
+	{{ content | toc }}
+  </details>
+  <article>{{ content }}</article>
 </div>
