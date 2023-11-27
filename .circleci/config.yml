@@ -1,4 +1,4 @@
- version: 2.1
+version: 2.1
 
 # Define the jobs we want to run for this project
 jobs:
@@ -15,8 +15,7 @@ workflows:
   build-project:
     jobs:
       - pull-and-build:
-          filters:
-            branches:
-              only:
-                - main
-
+        filters:
+          branches:
+            only:
+              - main
