@@ -7,6 +7,4 @@ sourceCode:
 liveDemo: https://platopunk.com/
 ---
 
-# My blog
-
 Read more on why and how I {%newtab_link 'https://blog.imkhoi.com/posts/2023/11/hosting-my-own-activitypub-server/' 'host my own ActivityPub server'%}.
