@@ -13,7 +13,7 @@ title: Home | KHOI
     {%endfor%}    
     <a aria-label='{{site.contacts.email |prepend: "My email: "}}' class='py-5 pr-5 rounded-full' href='mailto:{{site.contacts.email}}'><i class="fa-solid fa-envelope text-2xl hover:text-gray"></i></a>
 
-    <h1 class='text-2xl pt-8 font-bold'>Intro</h1> 
+    <h2 class='text-2xl pt-8 font-bold'>Intro</h2> 
     <p class='pt-3 text-gray'>
         👋 Hi, I'm Khoi. I just graduated and got my Dual Degree: a Bachelor of Science in
         Information Technology (concentration in Cybersecurity) and a Bachelor of Business Administration in Computer
@@ -25,13 +25,49 @@ title: Home | KHOI
         Would love to connect!
     </p>
     
-    <h1 class='text-2xl pt-10 font-bold'>Skills</h1> 
-    <div class='pt-3 flex flex-wrap items-center'>
-    {%for skill in site.skills %}
-    <div class='flex flex-col items-center mr-5 my-5'>
-        <span class="iconify text-3xl" data-icon={{skill.icon}}></span>
-        <p class='pt-3 text-gray'>{{skill.name}}</p>
-    </div>
-    {%endfor%}
+    <h2 class='text-2xl pt-10 font-bold'>Skills</h2> 
+	<section>
+		<h3 class="my-5 font-bold">Programming languages</h3>
+    	<div class='pt-3 flex flex-wrap items-center'>
+    	{%for skill in site.skills.lang %}
+    	<div class='flex flex-col items-center mr-5 mb-5'>
+    	    <span class="iconify text-3xl" data-icon={{skill.icon}}></span>
+    	    <p class='pt-3 text-gray'>{{skill.name}}</p>
+    	</div>
+    	{%endfor%}
+	</section>
+
+	<section>
+		<h3 class="mt-8 mb-5 font-bold">Frontend</h3>
+    	<div class='pt-3 flex flex-wrap items-center'>
+    	{%for skill in site.skills.frontend %}
+    	<div class='flex flex-col items-center mr-5 mb-5'>
+    	    <span class="iconify text-3xl" data-icon={{skill.icon}}></span>
+    	    <p class='pt-3 text-gray'>{{skill.name}}</p>
+    	</div>
+    	{%endfor%}
+	</section>
+	
+	<section>
+		<h3 class="mt-8 mb-5 font-bold">Backend</h3>
+    	<div class='pt-3 flex flex-wrap items-center'>
+    	{%for skill in site.skills.backend %}
+    	<div class='flex flex-col items-center mr-5 mb-5'>
+    	    <span class="iconify text-3xl" data-icon={{skill.icon}}></span>
+    	    <p class='pt-3 text-gray'>{{skill.name}}</p>
+    	</div>
+    	{%endfor%}
+	</section>
+
+	<section>
+		<h3 class="mt-8 mb-5 font-bold">Database</h3>
+    	<div class='pt-3 flex flex-wrap items-center'>
+    	{%for skill in site.skills.database %}
+    	<div class='flex flex-col items-center mr-5 mb-5'>
+    	    <span class="iconify text-3xl" data-icon={{skill.icon}}></span>
+    	    <p class='pt-3 text-gray'>{{skill.name}}</p>
+    	</div>
+    	{%endfor%}
+	</section>
     </div>
 </div>
