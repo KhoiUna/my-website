@@ -12,7 +12,7 @@
         "icon": "logos:bootstrap"
       },
       {
-        "name": "TailwindCSS",
+        "name": "Tailwind CSS",
         "icon": "logos:tailwindcss-icon"
       },
       {
@@ -48,6 +48,18 @@
       {
         "name": "Golang",
         "icon": "logos:go"
+      },
+      {
+        "name": "PHP",
+        "icon": "logos:php"
+      },
+      {
+        "name": "Java",
+        "icon": "logos:java"
+      },
+      {
+        "name": "C",
+        "icon": "devicon:c"
       }
     ],
     "backend": [
