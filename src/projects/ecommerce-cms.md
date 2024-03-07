@@ -2,7 +2,7 @@
 title: E-commerce CMS
 description: "A simple CMS for your online store built with NextJS & Golang."
 date: "2024-03-03"
-ogImage: /assets/images/ecommerce-cms.webp
+ogImage: /assets/images/ecom.webp
 sourceCode: https://github.com/KhoiUna/nextjs-go-ecommerce-cms
 liveDemo: https://samplestore.khoiuna.info/
 ---
