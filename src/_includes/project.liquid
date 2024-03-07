@@ -19,7 +19,7 @@ layout: main
 
 <div id="post" class="prose prose-invert">
   {% if ogImage %}  
-    <img class="w-[200px] rounded-lg object-fit" src="{{ ogImage }}" alt="Post hero image" />
+	  <img class="w-[200px] rounded-lg object-fit" src="{{ ogImage }}" alt='{{ "Project image alt: " | append: description }}' />
   {% endif %}
 
   <div class='pb-5'>
