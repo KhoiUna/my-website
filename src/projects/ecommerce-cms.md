@@ -1,6 +1,6 @@
 ---
 title: E-commerce CMS
-description: "A simple CMS for your online store built with NextJS & Golang."
+description: "A simple CMS for your online store built with NextJS & Golang"
 date: "2024-03-03"
 ogImage: /assets/images/ecom.webp
 sourceCode: https://github.com/KhoiUna/nextjs-go-ecommerce-cms
@@ -11,11 +11,14 @@ This project was built as part of my {%newtab_link 'https://blog.imkhoi.com/post
 
 # Features
 
--   Login page at <domain>/login
-    -   Try the demo at {%newtab_link 'https://samplestore.khoiuna.info/login/' 'samplestore.khoiuna.info/login'%}.
-    -   Login with username `admin` & password `admin123`.
--   Admin dashboard to add & edit products.
--   Preorder notification through Discord.
+Admin login page at <domain>/login.
+
+-   Try the demo at {%newtab_link 'https://samplestore.khoiuna.info/login/' 'samplestore.khoiuna.info/login'%}.
+-   Login with username `admin` & password `admin123`.
+
+Admin dashboard to add & edit products.
+
+Preorder notification through Discord.
 
 # Tech
 
