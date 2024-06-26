@@ -50,6 +50,10 @@
 				"icon": "logos:go"
 			},
 			{
+				"name": "Ruby",
+				"icon": "logos:ruby"
+			},
+			{
 				"name": "PHP",
 				"icon": "logos:php"
 			},
