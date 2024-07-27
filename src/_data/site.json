@@ -54,16 +54,12 @@
 				"icon": "logos:ruby"
 			},
 			{
+				"name": "Bash",
+				"icon": "logos:bash-icon"
+			},
+			{
 				"name": "PHP",
 				"icon": "logos:php"
-			},
-			{
-				"name": "Java",
-				"icon": "logos:java"
-			},
-			{
-				"name": "C",
-				"icon": "devicon:c"
 			}
 		],
 		"backend": [
