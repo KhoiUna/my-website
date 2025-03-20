@@ -26,8 +26,11 @@ layout: main
   {%if sourceCode%}
   <a target='_blank' href={{sourceCode}} class='urls block w-fit'>Source code</a>
   {%endif%}
-  {%if liveDemo%}
+  {%if liveDemo and liveDemo != "#"%}
   <a target='_blank' href={{liveDemo}} class='urls block pt-3 w-fit'>Live demo</a>
+  {%endif%}
+  {%if liveDemo and liveDemo == "#"%}
+  <a class='urls block pt-3 w-fit'>Retired</a>
   {%endif%}
   </div>
   
