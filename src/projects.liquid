@@ -22,8 +22,11 @@ pagination:
        {%if project.data.sourceCode%}
        <a target='_blank' href={{project.data.sourceCode}} class='urls hover:underline ml-5'>Source code</a>
        {%endif%}
-       {%if project.data.liveDemo%}
+       {%if project.data.liveDemo and project.data.liveDemo != "#"%}
        <a target='_blank' href={{project.data.liveDemo}} class='urls hover:underline ml-5'>Live demo</a>
+       {%endif%}
+       {%if project.data.liveDemo and project.data.liveDemo == "#"%}
+       <a class='urls hover:underline ml-5'>Retired</a>
        {%endif%}
     </div>
     </div>
