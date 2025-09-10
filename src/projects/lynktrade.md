@@ -4,7 +4,7 @@ description: "The easiest way to create a website for home service businesses"
 date: "2023-06-27"
 ogImage: /assets/images/lynktrade.webp
 sourceCode:
-liveDemo: https://www.lynktrade.com/
+liveDemo: https://lynktrade.platopunk.com/
 ---
 
 As a developer, I encountered a recurring challenge – the clunkiness and complexity of existing website builders. These tools, while powerful, often posed a steep learning curve for non-tech-savvy users, particularly small business owners. This sparked the idea for LynkTrade, a platform designed to simplify the process of creating a website, empowering entrepreneurs to establish their online presence effortlessly. This led to the {%newtab_link 'https://twitter.com/khoiuna/status/1677539843931267072' 'launch of LynkTrade in Summer 2023'%}.
