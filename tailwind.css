@@ -1,14 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@source '../src/**/*.{html,liquid,md}';
+
+@reference {
+	@import 'tailwindcss';
+}
 
 nav a,
 .urls,
 #post p a,
 .read_this {
-  color: #82b2ff;
+	color: #82b2ff;
 }
 
 p {
-  @apply leading-7;
+	@apply leading-7;
 }
