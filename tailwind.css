@@ -1,10 +1,5 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
-@source '../src/**/*.{html,liquid,md}';
-
-@reference {
-	@import 'tailwindcss';
-}
 
 nav a,
 .urls,
