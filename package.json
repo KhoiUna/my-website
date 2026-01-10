@@ -7,7 +7,7 @@
 		"dev": "eleventy --serve & tailwindcss -i ./tailwind.css -o ./_site/assets/styles/tailwind.css --watch",
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix",
-		"build": "pnpm eleventy & postcss ./tailwind.css -o _site/assets/styles/tailwind.css"
+		"build": "eleventy & tailwindcss -i ./tailwind.css -o ./_site/assets/styles/tailwind.css"
 	},
 	"author": "Khoi Nguyen",
 	"devDependencies": {
