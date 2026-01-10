@@ -5,9 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "eleventy --serve & tailwindcss -i ./tailwind.css -o ./_site/assets/styles/tailwind.css --watch",
-		"lint": "eslint .",
-		"lint:fix": "eslint . --fix",
-		"build": "eleventy & tailwindcss -i ./tailwind.css -o ./_site/assets/styles/tailwind.css"
+		"build": "eleventy; tailwindcss -i ./tailwind.css -o ./_site/assets/styles/tailwind.css; cp ./src/robots.txt ./_site/"
 	},
 	"author": "Khoi Nguyen",
 	"devDependencies": {
