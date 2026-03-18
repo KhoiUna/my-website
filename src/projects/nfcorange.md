@@ -1,10 +1,10 @@
 ---
 title: NFC Orange
-description: "Modernize Career Fairs: Embrace the Paperless Revolution"
-date: "2023-03-01"
+description: 'Modernize Career Fairs: Embrace the Paperless Revolution'
+date: '2023-03-01'
 ogImage: /assets/images/nfcorange.webp
 sourceCode: https://github.com/KhoiUna/nfc-orange
-liveDemo: https://www.nfcorange.com/
+liveDemo: https://nfcorange.platopunk.com
 ---
 
 I blogged about this project. If interested, you can {%newtab_link 'https://blog.imkhoi.com/posts/2023/02/startup-at-uni/' 'read the blog here'%}.
